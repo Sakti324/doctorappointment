@@ -15,7 +15,7 @@ const Appointment = () => {
     <div className="h-full mt-2 p-4 sm:w-max md:w-96  shadow-2xl">
       <div className="flex flex-col items-center gap-2 justify-center ">
         <div className="font-bold text-2xl p-2">
-          <p>APPOINTMENT DETAILS</p>
+          <p className="text-purple-600">BOOK AN APPOINTMENT</p>
         </div>
         <div class="flex flex-col w-64 ">
           <label

@@ -5,13 +5,13 @@ const Vital = () => {
   const Country = ["India"];
 
   return (
-    <div className="mt-2 p-4 w-11/12 flex flex-col gap-2 border-1  shadow-2xl">
+    <div className="mt-2 p-4 w-11/12 flex flex-col justify-center gap-2 border-1  shadow-2xl ">
       {" "}
       <div className="font-bold text-2xl">
-        <p>VITALS</p>
+        <p className="text-purple-600">PATIENT VITALS</p>
       </div>
-      <div className="flex flex-row flex-wrap justify-evenly items-center gap-2 py-2 ">
-        <div className="">
+      <div className=" flex flex-row flex-wrap justify-evenly items-center gap-4 py-2 ">
+        <div className="w-64">
           <label
             for="text"
             class="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
@@ -24,7 +24,7 @@ const Vital = () => {
             required
           />
         </div>
-        <div className="">
+        <div className="w-64">
           <label
             for="text"
             class="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
@@ -37,7 +37,10 @@ const Vital = () => {
             required
           />
         </div>
-        <div className="">
+       
+      </div>
+      <div className="flex flex-row flex-wrap justify-around items-center gap-2 py-2 ">
+      <div className="w-64">
           <label
             for="text"
             class="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
@@ -50,15 +53,13 @@ const Vital = () => {
             required
           />
         </div>
-      </div>
-      <div className="flex flex-row flex-wrap justify-evenly items-center gap-2 py-2 ">
         <StateCitySelector />
-        <Dropdown options={Country} />
+        <Dropdown options={Country} className="w-64"/>
       </div>
-      <div className="flex flex-row flex-wrap justify-evenly items-center gap-2 py-2 ">
+      <div className="flex flex-row flex-wrap justify-around items-center gap-2 py-2 ">
         {" "}
         
-        <div className="">
+        <div className="w-64">
           <label
             for="text"
             class="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
@@ -73,7 +74,7 @@ const Vital = () => {
             required
           />
         </div>
-        <div className="">
+        <div className="w-64">
           <label
             for="text"
             class="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
@@ -88,7 +89,7 @@ const Vital = () => {
             required
           />
         </div>
-          <div className="">
+          <div className="w-64">
             <label
               for="text"
               class="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
@@ -104,9 +105,9 @@ const Vital = () => {
             />
           </div>
        </div>
-       <div className="flex flex-row flex-wrap justify-evenly items-center gap-2 py-2 ">
+       <div className="flex flex-row flex-wrap justify-around items-center gap-2 py-2 ">
         {" "}
-          <div className="">
+          <div className="w-64">
             <label
               for="text"
               class="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
@@ -121,7 +122,7 @@ const Vital = () => {
               required
             />
           </div>
-          <div className="">
+          <div className="w-64">
             <label
               for="text"
               class="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
@@ -136,7 +137,7 @@ const Vital = () => {
               required
             />
           </div>
-          <div className="">
+          <div className="w-64">
             <label
               for="text"
               class="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
@@ -153,7 +154,7 @@ const Vital = () => {
           </div>
         </div>
       
-        <div className="flex md:flex-row  justify-evenly items-center gap-4 py-2 ">
+        <div className="flex md:flex-row  justify-around items-center gap-4 py-2 ">
           <div className="w-1/3 mb-6">
             <label
               for="text"

@@ -9,7 +9,7 @@ const Details = () => {
     <div className="h-full mt-2 p-4 sm:w-max md:w-96  shadow-2xl">
       <div className="flex flex-col justify-center ">
         <div className="font-bold text-2xl">
-          <p>DETAILS</p>
+          <p className="text-purple-600">DETAILS</p>
         </div>
         <div className="p-4  ">
           <Dropdown className="" options={User_id} />

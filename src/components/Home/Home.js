@@ -15,7 +15,7 @@ const Home = () => {
             <Appointment />
           </div>
         </div>
-        <hr className="border-4"/>
+        <hr className="border border-dashed border-indigo-900 "/>
         <div className="flex flex-row items-between justify-evenly">
           <Vital />
         </div>
