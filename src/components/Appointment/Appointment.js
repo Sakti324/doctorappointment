@@ -12,10 +12,10 @@ const Appointment = () => {
   ];
 
   return (
-    <div className="h-full mt-2 p-4 sm:w-max md:w-96  shadow-2xl">
+    <div className="h-full mt-2 p-4 sm:w-max md:w-96  shadow-2xl bg-[#3F86BE]">
       <div className="flex flex-col items-center gap-2 justify-center ">
         <div className="font-bold text-2xl p-2">
-          <p className="text-purple-600">BOOK AN APPOINTMENT</p>
+          <p className="text-[#FDFBF9]">BOOK AN APPOINTMENT</p>
         </div>
         <div class="flex flex-col w-64 ">
           <label

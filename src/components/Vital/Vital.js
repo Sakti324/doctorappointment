@@ -5,10 +5,10 @@ const Vital = () => {
   const Country = ["India"];
 
   return (
-    <div className="mt-2 p-4 w-11/12 flex flex-col justify-center gap-2 border-1  shadow-2xl ">
+    <div className="mt-2 p-4 w-9/12 flex flex-col justify-center gap-2 border-1  shadow-2xl bg-[#3F86BE]">
       {" "}
       <div className="font-bold text-2xl">
-        <p className="text-purple-600">PATIENT VITALS</p>
+      <p className="text-[#FDFBF9]">PATIENT VITALS</p>
       </div>
       <div className=" flex flex-row flex-wrap justify-evenly items-center gap-4 py-2 ">
         <div className="w-64">
@@ -187,13 +187,13 @@ const Vital = () => {
         {" "}
         <button
           type="button"
-          class="w-24 text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2"
+          class="w-24 text-[#3F86BE] bg-gradient-to-r from-blue-100 via-blue-200 to-blue-500 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-200 dark:focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2"
         >
           Reset
         </button>
         <button
           type="button"
-          class="w-24 text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2"
+          class="w-24 text-[#3F86BE] bg-gradient-to-r from-blue-100 via-blue-200 to-blue-500 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-200 dark:focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2"
         >
           Submit
         </button>

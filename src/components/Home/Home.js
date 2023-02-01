@@ -6,6 +6,7 @@ import "./Home.css";
 const Home = () => {
   return (
     <div>
+   
       <div className="m-2 p-2 main_box flex flex-col justify-center  gap-3">
         <div className="flex flex-row items-between justify-evenly flex-wrap pb-4">
           <div className="Details ">
